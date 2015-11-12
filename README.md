@@ -19,8 +19,8 @@ Remember to just use these linters as a guideline, don't spend a ton of time try
 
 For Sublime users I've been using SublimeLinter (http://www.sublimelinter.com/en/latest/) and then the sub-packages for the individual linters (SublimeLinter-rubocop, SublimeLinter-contrib-eslint, SublimeLinter-contrib-scss-lint, SublimeLinter-coffeelint).  You also have to actually install the binaries that these linters rely on:
 
-gem install rubocop (and rbenv rehash if you're an rbenv user)
-gem install scss-lint (rbenv rehash)
-npm install -g eslint
-npm install -g coffeelint
+* gem install rubocop (and rbenv rehash if you're an rbenv user)
+* gem install scss-lint (rbenv rehash)
+* npm install -g eslint
+* npm install -g coffeelint
 
