@@ -9,6 +9,6 @@ Clone the repo into ~/.factore-dotfiles
     
 **Linters**
 
-Symlink all the linters into your home folder
+Symlink all the linter dotfiles into your home folder
 
     for f in $(ls -d ~/.factore-dotfiles/linters/.*); do ln -s $f ~/; done && ls -al ~/
