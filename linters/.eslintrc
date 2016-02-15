@@ -41,7 +41,7 @@
     **  STRICT MODE
     **  These rules relate to using strict mode.
     */
-    "strict": [2, "function"], // `[2, "function"]` is default, optionally set `[2, "never"]`
+    "strict": [2, "never"], // `[2, "function"]` is default, optionally set `[2, "never"]`
 
     /*
     **  VARIABLES
@@ -173,7 +173,7 @@
     "func-style": 0, // optionally set `[2, "expression"]`
     "id-length": 0, // optionally set `[2, {"min": 3, "max": 10, "properties": "never", "exceptions": ["x"]}]`
     "id-match": 0, // optionally set `[2, "^[a-z]+([A-Z][a-z]+)*$", {"properties": false}]`
-    "indent": [1, 2, {"SwitchCase": 1, "VariableDeclarator": 2}], // optionally set `[2, 2, {"SwitchCase": 1, "VariableDeclarator": {"var": 2, "let": 2, "const": 3}}]`
+    "indent": [1, 2, {"SwitchCase": 0, "VariableDeclarator": 2}], // optionally set `[2, 2, {"SwitchCase": 1, "VariableDeclarator": {"var": 2, "let": 2, "const": 3}}]`
     "jsx-quotes": [1, "prefer-double"],
     "key-spacing": [1, {"beforeColon": false, "afterColon": true, "mode": "minimum"}], // optionally set `[2, {"beforeColon": false, "afterColon": true, "mode": "strict", "align": "colon"}]`
     "lines-around-comment": 0, // optionally set `[2, {"beforeBlockComment": true, "beforeLineComment": true, "allowBlockStart": true}]`
@@ -196,7 +196,7 @@
     "no-trailing-spaces": [1, {"skipBlankLines": false}],
     "no-underscore-dangle": 0,
     "no-unneeded-ternary": [1, {"defaultAssignment": true}],
-    "object-curly-spacing": [1, "never"], // optionally set `[2, "always", {"objectsInObjects": false, "arraysInObjects": false}]`
+    "object-curly-spacing": [2, "always"], // optionally set `[2, "always", {"objectsInObjects": false, "arraysInObjects": false}]`
     "one-var": [1, {"uninitialized": "always", "initialized": "never"}], // optionally set `[2, {"var": "always", "let": "never", "const": "never"}]`
     "operator-assignment": 0, // optionally set `[2, "always"]`
     "operator-linebreak": [1, "after"], // optionally set `[2, "before", {"overrides": {"?": "after"}}]`
