@@ -1,3 +1,5 @@
 linters:
   PropertySortOrder:
     order: concentric
+  StringQuotes:
+    style: double_quotes
