@@ -27,6 +27,7 @@
     "sort-order": [
         [
             "$variable",
+            "$include",
             "$extend",
 
             "display",
@@ -357,9 +358,7 @@
             "hyphens",
             "pointer-events",
 
-            "box-decoration-break",
-
-            "$include"
+            "box-decoration-break"
 
         ]
     ]
