@@ -29,7 +29,7 @@
     "sort-order": [
         [
             "$variable",
-            "$include",
+            "$extend",
 
             "display",
             "position",
@@ -327,17 +327,6 @@
             "content",
             "quotes",
 
-
-
-
-
-
-
-
-
-
-
-
             "clip",
             "zoom",
             "flex-direction",
@@ -370,7 +359,10 @@
             "hyphens",
             "pointer-events",
 
-            "box-decoration-break"
+            "box-decoration-break",
+
+            "$include"
+
         ]
     ]
 }
