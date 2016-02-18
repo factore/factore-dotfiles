@@ -5,3 +5,6 @@ linters:
   SelectorFormat:
     enabled: true
     convention: hyphenated_BEM
+
+  StringQuotes:
+    style: single_quotes
