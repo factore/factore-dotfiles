@@ -36,6 +36,9 @@
     "$": false,
     "_": false,
   },
+  "plugins": [
+    "react"
+  ],
   "rules": {
     /*
     **  STRICT MODE

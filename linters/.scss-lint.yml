@@ -1,3 +1,7 @@
 linters:
   PropertySortOrder:
     order: concentric
+
+  SelectorFormat:
+    enabled: true
+    convention: hyphenated_BEM
