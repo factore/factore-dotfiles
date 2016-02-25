@@ -1,7 +1,10 @@
 linters:
   PropertySortOrder:
     order: concentric
+
   SelectorFormat:
+    enabled: true
     convention: hyphenated_BEM
+
   StringQuotes:
-    style: double_quotes
+    style: single_quotes

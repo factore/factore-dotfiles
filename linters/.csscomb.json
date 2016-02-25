@@ -7,12 +7,10 @@
     "always-semicolon": true,
     "color-case": "lower",
     "block-indent": "  ",
-    "color-shorthand": false,
     "element-case": "lower",
     "eof-newline": true,
     "leading-zero": false,
-    "quotes": "double",
-    "sort-order-fallback": "abc",
+    "quotes": "single",
     "space-before-colon": "",
     "space-after-colon": " ",
     "space-before-combinator": " ",
@@ -30,6 +28,7 @@
         [
             "$variable",
             "$include",
+            "$extend",
 
             "display",
             "position",
@@ -327,17 +326,6 @@
             "content",
             "quotes",
 
-
-
-
-
-
-
-
-
-
-
-
             "clip",
             "zoom",
             "flex-direction",
@@ -371,6 +359,7 @@
             "pointer-events",
 
             "box-decoration-break"
+
         ]
     ]
 }
