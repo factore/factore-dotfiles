@@ -59,7 +59,7 @@
     "no-undef-init": 1, // `2` is default
     "no-undef": 2,
     "no-undefined": 2,
-    "no-unused-vars": [1, {"vars": "all", "args": "all"}], // `[2, {"vars": "all", "args": "after-used"}]` is default, optionally set `[2, {"vars": "all", "args": "after-used", "varsIgnorePattern": "<regex>", "argsIgnorePattern": "<regex>"}]`
+    "no-unused-vars": [2, {"vars": "all", "args": "after-used"}], // `[2, {"vars": "all", "args": "after-used"}]` is default, optionally set `[2, {"vars": "all", "args": "after-used", "varsIgnorePattern": "<regex>", "argsIgnorePattern": "<regex>"}]`
     "no-use-before-define": 1,
 
     /*
@@ -264,7 +264,7 @@
     **  JSHint/JSLint counterpart, the functionality is the same.
     */
     "max-depth": 0, // `[2, 4]` is default
-    "max-len": 0, // `[2, 80, 4]` is default, optionally set `[2, 80, 4, {"ignoreComments": true, "ignoreUrls": true}]`
+    "max-len": [2, 80, 4], // `[2, 80, 4]` is default, optionally set `[2, 80, 4, {"ignoreComments": true, "ignoreUrls": true}]`
     "max-params": 0, // no default, optionally set `[2, 3]`
     "max-statements": 0, // no default, optionally set `[2, 2]`
     "no-bitwise": 1, // `2` is default
