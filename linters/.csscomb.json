@@ -7,12 +7,10 @@
     "always-semicolon": true,
     "color-case": "lower",
     "block-indent": "  ",
-    "color-shorthand": false,
     "element-case": "lower",
     "eof-newline": true,
     "leading-zero": false,
     "quotes": "single",
-    "sort-order-fallback": "abc",
     "space-before-colon": "",
     "space-after-colon": " ",
     "space-before-combinator": " ",
@@ -29,6 +27,7 @@
     "sort-order": [
         [
             "$variable",
+            "$include",
             "$extend",
 
             "display",
@@ -359,9 +358,7 @@
             "hyphens",
             "pointer-events",
 
-            "box-decoration-break",
-
-            "$include"
+            "box-decoration-break"
 
         ]
     ]
